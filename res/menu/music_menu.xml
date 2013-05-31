@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/shuffle_disabled"
+        android:id="@+id/shuffle"
+        android:checked="false"
+        android:checkable="true"/>
+    <item
+        android:icon="@drawable/repeat_disabled"
+        android:id="@+id/repeat"
+        android:checked="false"
+        android:checkable="true"/>
+</menu>

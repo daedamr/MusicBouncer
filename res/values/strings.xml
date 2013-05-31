@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Bouncer</string>
+    <string name="no_network_connection_toast">There is a problem with the internet. Please check your network
+        connection before continue.
+    </string>
+</resources>

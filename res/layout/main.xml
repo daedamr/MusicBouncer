@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <ListView
+            android:id="@+id/music_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons_container"/>
+
+    <LinearLayout
+            android:id="@+id/buttons_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/bar_bg"
+            android:layout_alignParentBottom="true">
+
+        <ImageButton
+                android:id="@+id/previous"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onPreviousClick"
+                android:background="@android:color/transparent"
+                android:src="@drawable/prev"/>
+
+        <ImageButton
+                android:id="@+id/play"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onPlayClick"
+                android:background="@android:color/transparent"
+                android:src="@drawable/play_normal"/>
+
+        <ImageButton
+                android:id="@+id/stop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onStopClick"
+                android:background="@android:color/transparent"
+                android:src="@drawable/stop_2"/>
+
+        <ImageButton
+                android:id="@+id/next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onNextClick"
+                android:background="@android:color/transparent"
+                android:src="@drawable/next"/>
+
+    </LinearLayout>
+</RelativeLayout>
+

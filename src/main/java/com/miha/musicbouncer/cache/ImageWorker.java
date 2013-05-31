@@ -11,8 +11,7 @@ import android.graphics.drawable.TransitionDrawable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.widget.ImageView;
-import com.actionbarsherlock.R;
-import com.google.inject.Inject;
+import com.miha.musicbouncer.R;
 import com.miha.musicbouncer.util.DeviceUtils;
 
 import java.lang.ref.WeakReference;
